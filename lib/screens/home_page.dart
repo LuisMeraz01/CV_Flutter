@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
         children: [
           Row( // Fila de foto e informacion personal
             children: [
-              const SizedBox(height: 40),
+              const SizedBox(height: 70),
               Image.asset('assets/img/user.png', scale: 8), // Foto personal
               const Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -44,15 +44,15 @@ class HomePage extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text('Habilidades'),
-                    Text('-Java'),
-                    Text('-JavaScript'),
-                    Text('-Python'),
-                    Text('-Bases de datos'),
-                    Text('-Metodologias'),
-                    Text('-Diseño')
+                    Text('-Java', style: TextStyle(fontSize: 10),),
+                    Text('-JavaScript', style: TextStyle(fontSize: 10),),
+                    Text('-Python', style: TextStyle(fontSize: 10),),
+                    Text('-Bases de datos', style: TextStyle(fontSize: 10),),
+                    Text('-Metodologias', style: TextStyle(fontSize: 10),),
+                    Text('-Diseño', style: TextStyle(fontSize: 10),)
                   ],
                 ),
-                SizedBox(width: 10),
+                SizedBox(width: 40),
                 Column(
                   children: [
                     Column(
@@ -63,8 +63,7 @@ class HomePage extends StatelessWidget {
                         Text('-Servidor web con proyectos hechos en clase de', style: TextStyle(fontSize: 10),),
                         Text('Fullstack (php, javascript)', style: TextStyle(fontSize: 10),),
                         Text('-Trabajador en Cybercafe - +1 año ', style: TextStyle(fontSize: 10),),
-                        Text('-------------------------------------------------------'),
-                        Text('-------------------------------------------------------'),
+                        
                       ],
                     )
                   ],
