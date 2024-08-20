@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
                 children: [
                   Text('Nombre: Luis Angel Meraz Barajas', style: TextStyle(fontSize: 18)),
                   Text('Fecha de Nacimiento: 28/Enero/2001', style: TextStyle(fontSize: 16)),
-                  Text('Telefono: 6391096500', style: TextStyle(fontSize: 14)),
+                  Text('Telefono: ----------', style: TextStyle(fontSize: 14)),
                   Text('Carrera: Ingenieria en sistemas', style: TextStyle(fontSize: 12)),
                 ],
               )
